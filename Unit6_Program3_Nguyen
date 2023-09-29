@@ -1,0 +1,21 @@
+// Andy Nguyen, Programming Fundamentals 1, Replit
+#include <iostream>
+#include <algorithm> 
+#include "accounts.h"
+using namespace std;
+
+void printArray(int array[], int size) {
+for (int i = 0; i < size; i++) {
+cout << array[i] << "";
+}
+cout << endl;
+}
+
+int main()
+{
+int myArray[7] = {1,2,3,4,5,6,7};
+sort(accountBalances, end(accountBalances)); 
+printArray(accountBalances, maxAccounts);
+return 0;
+}
+//name of array is acountsbalances and size is maxaccounts so i changed those, im not sure if this is right though
